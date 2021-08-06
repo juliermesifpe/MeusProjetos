@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*Cabecalho*/
+header{
+    background: gainsboro;
+}
+.cabecalho{
+    width: 940px;
+    margin: auto;
+    height: 224px;
+}
+.logo{
+   display: inline-block;
+}
+.navegacao{
+    display: inline-block;
+    float: right;
+    margin: 103px 0;
+}
+.navegacao li{
+    display: inline-block;
+    margin: 0 20px;
+}
+.navegacao a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navegacao a:hover{
+    color: white;
+}
+
+/*Formulario*/
+main{
+    padding: 100px 0;
+}
+.formulario{
+    width: 940px;
+    margin: auto;
+    padding: 20px;
+    border: solid;
+    border-radius: 10px;
+}
+.formulario section{
+   margin: 20px 0;
+   padding: 0 20px;
+   border: solid;
+   border-radius: 10px;
+   background: gainsboro;
+}
+.formulario h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+.formulario label{
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.formulario input, select, option{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    text-align-last: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.enviar{
+    width: 50%;
+}
